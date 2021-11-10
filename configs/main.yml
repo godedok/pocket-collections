@@ -1,0 +1,15 @@
+db_file: "bot.db"
+
+bot_url: "https://t.me/pocket_collections_bot"
+
+messages:
+  responses:
+    start: "Give access to the link:\n%s"
+    already_authorized: "You are already logged in, send the link and I will save it"
+    saved_successfully: "Link is save"
+    unknown_command: "You entered unknown command"
+  errors:
+    default: "Unknown error"
+    invalid_url: "Link is not validate"
+    unauthorized: "You are not authorize! Press /start"
+    unable_to_save: "Failed to save link! Please, try later"
